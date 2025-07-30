@@ -4,8 +4,7 @@ from utils.dotenv_loader import load_env
 
 class RedditClient:
     """
-    Singleton Reddit client manager.
-    Ensures only one Reddit instance is created.
+    Singleton class that Ensures only one Reddit instance is created.
     """
     _instance = None
     _reddit = None
