@@ -22,8 +22,7 @@ def main():
     # Generator
     print("Using Generator")
     generator = PostGenerator(filtered_posts)
-    generated = list(generator.post_generator())
-    for post in generated:
+    for post in generator.post_generator():
         print(f"{post.title} | Score: {post.score}")
 
     # Iterator
